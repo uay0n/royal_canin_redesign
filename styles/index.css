@@ -1,0 +1,225 @@
+/* intro부터 시작 */
+@font-face {
+    font-family: 'Cafe24Surround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+main {}
+main .intro {
+    position: relative; width: 100%;
+    height: 100vh;
+}
+main .intro .logo {
+    width: 415px; height: 150px;
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+main .intro .logo img {
+    width: 100%;
+}
+main .intro .choice {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+main .intro .choice .dog {
+    background: url(../image/intro_dog.jpg) no-repeat center center;
+    background-size: cover;
+    flex: 1; filter: grayscale(100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+main .intro .choice .dog h2,
+main .intro .choice .cat h2 {
+    font-family: 'Cafe24Surround';
+    color: #fff; font-size: 6em;
+}
+main .intro .choice .cat {
+    background: url(../image/intro_cat.jpg) no-repeat center center;
+    background-size: cover; 
+    flex: 1; filter: grayscale(100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .intro .choice .dog:hover {filter: none;}
+main .intro .choice .cat:hover {filter: none;}
+/* 인트로 완료 */
+/* 헤더 시작 */
+header {
+    width: 100%; position: fixed;
+    z-index: 999;
+}
+header nav {
+    padding: 10px 40px;
+    display: flex; justify-content: space-between;
+    align-items: center;
+}
+header nav * {color: #fff;}
+header nav h1 {
+    width: 220px; padding: 5px 40px;
+}
+header nav h1 img {width: 100%;}
+header nav .gnb {
+    display: flex; gap: 40px;
+}
+header nav .gnb li {}
+header nav .gnb li a {
+    font-size: 1em; font-weight: 100;
+}
+header nav .right {
+    display: flex; gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+header nav .right li {}
+header nav .right li a {
+    font-size: 0.875em; font-weight: 100;
+}
+header nav .right .store {
+    background: #D72420; padding: 5px 15px;
+    border-radius: 50px;
+}
+header nav .right .store a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+header nav .right .store a img {}
+/* 메인시작 */
+main .hero {
+    background: url(../image/dog_hero.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%; height: 100vh; 
+    position: relative;
+}
+main .hero p {
+    position: absolute; top: 250px; left: 150px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800; font-size: 1.25em; color: #fff;
+}
+main .hero h2 {
+    position: absolute; top: 295px; left: 150px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800; font-size: 3.125em; color: #fff;
+}
+/* age 시작 */
+main .age {
+    padding: 60px 40px;
+}
+main .age .top {
+    text-align: center;
+    padding-bottom: 40px;
+}
+main .age .top h2 {
+    padding-bottom: 10px;
+    font-family: 'Montserrat'; font-weight: 700;
+    font-size: 1.563em; letter-spacing: 0.02px;
+
+}
+main .age .top p {
+    color: #A6A6A6; font-size: 0.938em;
+    letter-spacing: 0.02px;
+}
+main .age ul {
+    width: 100%; height: 590px;
+    display: flex; gap: 10px;
+}
+main .age ul li {
+    flex: 1; border-radius: 20px;
+    padding-top: 20px;
+}
+main .age ul li:nth-child(1) {
+    background: url(../image/dog_puppy.png) no-repeat center center;
+    background-size: cover; 
+}
+main .age ul li:nth-child(2) {
+    background: url(../image/dog_adult.png) no-repeat center center;
+    background-size: cover; 
+}
+main .age ul li:nth-child(3) {
+    background: url(../image/dog_senior.png) no-repeat center center;
+    background-size: cover; 
+}
+main .age ul li a {
+    display: flex; padding-left: 20px;
+    gap: 5px;
+    width: 100%; height: 100%;
+}
+main .age ul li a h3 {
+    font-family: 'Montserrat'; color: #404040;
+    font-weight: 600; 
+}
+main .age ul li a p {
+    color: #404040; font-size: 0.938em;
+}
+/* 베스트 시작 */
+main .best {
+    padding: 50px 40px;
+}
+main .best .top {
+    display: flex; gap: 10px;
+    align-items: center; margin-bottom: 40px;
+}
+main .best .top h2 {
+    padding-bottom: 10px;
+    font-family: 'Montserrat'; font-weight: 700;
+    font-size: 1.563em; letter-spacing: 0.02px;
+}
+main .best .top p {
+    color: #A6A6A6; font-size: 0.938em;
+    letter-spacing: 0.02px;
+}
+main .best ul {
+    display: flex; gap: 20px;
+}
+main .best ul li {
+    flex: 1; position: relative;
+}
+main .best ul li button {
+    position: absolute; z-index: 999;
+    bottom: 100px; right: 20px;
+}
+main .best ul li button img {}
+main .best ul li a {}
+main .best ul li a .thum {
+    height: 550px; margin-bottom: 20px;
+}
+main .best ul li a .info {
+    display: flex; flex-flow: column;
+    justify-content: center; align-items: center;
+    gap: 10px;
+}
+main .best ul li a .info h3 {
+    font-weight: 500; font-size: 0.938em;
+}
+main .best ul li a .info p {
+    color: #757575;
+}
+main .best ul li a .info .price_sale {display: flex; gap: 5px;}
+main .best ul li a .info .price_sale del {
+    color: #A6A6A6; font-weight: 300;
+}
+main .best ul li a .info .price_sale strong {}
+main .best ul li a .info .price_sale .sale {color: #D72420;}
+main .best ul .first a .thum {
+    background: url(../image/best_1.png) no-repeat 30% 60%;
+    background-size: 130%;
+}
+main .best ul .second a .thum {
+    background: url(../image/best_2.png) no-repeat center 70%;
+    background-size: 150%;
+}
+main .best ul .third a .thum {
+    background: url(../image/best_3.png) no-repeat 60% 20%;
+    background-size: 140%;
+}
+main .best ul .forth a .thum {
+    background: url(../image/best_4.png) no-repeat 40% 20%;
+    background-size: 130%;
+}
