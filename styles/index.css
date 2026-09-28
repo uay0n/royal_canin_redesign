@@ -433,3 +433,139 @@ main .health .bottom .right .forth a .thum {
     background: url(../image/health_4.png) no-repeat center center;
     background-size: cover;
 }
+/* 두번째배너 시작 */
+main .banner_2 {
+    padding: 60px 40px;
+}
+main .banner_2 .top {padding-bottom: 40px;}
+main .banner_2 .top h2 {
+    padding-bottom: 10px;
+    font-family: 'Montserrat'; font-weight: 700;
+    font-size: 1.563em; letter-spacing: 0.02px;
+}
+main .banner_2 .top p {
+    color: #A6A6A6; font-size: 0.938em;
+    letter-spacing: 0.02px;
+}
+main .banner_2 .bottom {
+    display: flex; padding: 0 50px;
+    gap: 40px;
+}
+main .banner_2 .bottom ul {
+    display: flex; gap: 40px;
+}
+main .banner_2 .bottom ul li {
+    height: 595px; flex:1;
+    width: 411.5px;
+}
+main .banner_2 .bottom ul li button {
+    position: absolute;
+}
+main .banner_2 .bottom ul li button img {}
+main .banner_2 .bottom ul li a {}
+main .banner_2 .bottom ul li a .thum {
+    height: 501px; margin-bottom: 20px;
+}
+main .banner_2 .bottom ul li a .info {
+    display: flex; flex-flow: column;
+    justify-content: center; align-items: center;
+    gap: 10px;
+}
+main .banner_2 .bottom ul li a .info h3 {
+    font-weight: 500; font-size: 0.938em;
+}
+main .banner_2 .bottom ul li a .info p {
+    color: #757575;
+}
+main .banner_2 .bottom ul li a .info .price_sale {display: flex; gap: 5px;}
+main .banner_2 .bottom ul li a .info .price_sale del {color: #A6A6A6; font-weight: 300;}
+main .banner_2 .bottom ul li a .info .price_sale strong {}
+main .banner_2 .bottom ul li a .info .price_sale .sale {color: #D72420;}
+main .banner_2 .bottom ul .first a .thum {
+    background: url(../image/banner2_1.png) no-repeat center center;
+    background-size: cover;
+}
+main .banner_2 .bottom ul .second a .thum {
+    background: url(../image/banner2_2.png) no-repeat center center;
+    background-size: cover;
+}
+main .banner_2 .bottom > .thum {
+    background: url(../image/banner2.png) no-repeat center center;
+    background-size: cover; padding: 40px 30px; gap: 10px;
+    width: 817px; height: 595px; justify-content: flex-end; 
+    display: flex; flex-flow: column; align-items: flex-end;
+}
+main .banner_2 .bottom > .thum h3 {
+    font-size: 2.188em; font-weight: 700;
+    color: #3E78BC;
+}
+main .banner_2 .bottom > .thum p {
+    text-align: right; font-size: 1.125em;
+    font-weight: 200; color: #404040;
+}
+/* 브리드 시작 */
+main .breed {
+    padding: 50px 40px;
+}
+main .breed .top {
+    display: flex; justify-content: space-between;
+    padding-bottom: 20px;
+}
+main .breed .top .left {
+    display: flex; gap: 10px;
+    align-items: center;
+}
+main .breed .top .left h2 {
+    padding-bottom: 10px;
+    font-family: 'Montserrat'; font-weight: 700;
+    font-size: 1.563em; letter-spacing: 0.02px;
+}
+main .breed .top .left p {
+    color: #A6A6A6; font-size: 0.938em;
+    letter-spacing: 0.02px;
+}
+main .breed .top .more {color: #A6A6A6;}
+main .breed .swiper {overflow: hidden;}
+main .breed .swiper-wrapper {
+    display: flex; 
+}
+main .breed .swiper-slide {flex-shrink: 0;}
+main .breed .swiper-slide a {
+    display: flex; flex-flow: column;
+    gap: 5px;
+}
+main .breed .swiper-slide a .thum {
+    width: 250px;
+}
+main .breed .swiper-slide a .thum img {
+    width: 100%;
+}
+main .breed .swiper-slide a .info {
+    display: flex; justify-content: center;
+    gap: 5px; flex-flow: column; align-items: center;
+}
+main .breed .swiper-slide a .info * {color: #404040;}
+main .breed .swiper-slide a .info h3 {
+    font-size: 1.25em; letter-spacing: -0.05em;
+}
+main .breed .swiper-slide a .info p {
+    font-family: 'Montserrat'; font-weight: 600;
+    font-size: 0.938em;
+}
+/* 슬로건 시작 */
+main .last {
+    padding: 40px 50px;
+}
+main .last .slogan {
+    display: flex; flex-flow: column;
+    justify-content: center; align-items: center;
+    gap: 10px;
+}
+main .last .slogan h2 {
+    width: 150px; height: 50px;
+}
+main .last .slogan h2 img {width: 100%;}
+main .last .slogan p {
+    font-family: 'Cafe24 Ssurround'; font-size: 2.188em;
+    color: #D72420;
+}
