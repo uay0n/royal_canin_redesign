@@ -335,3 +335,101 @@ main .banner ul .third {
     background: url(../image/banner_3.png) no-repeat center center;
     background-size: cover;
 }
+/* 헬스시작 */
+main .health {
+    padding: 50px 40px;
+}
+main .health .top {
+    display: flex; gap: 10px;
+    margin-bottom: 40px; align-items: center;
+}
+main .health .top h2 {
+    padding-bottom: 10px;
+    font-family: 'Montserrat'; font-weight: 700;
+    font-size: 1.563em; letter-spacing: 0.02px;
+}
+main .health .top p {
+    color: #A6A6A6; font-size: 0.938em;
+    letter-spacing: 0.02px;
+}
+main .health .bottom {
+    display: flex; gap: 40px;
+}
+main .health .bottom .category {
+    display: flex; flex-flow: column; gap: 10px;
+}
+main .health .bottom .category li {
+    width: 175px; background: #fff;
+    height: 62px;  border-radius: 50px;;
+    padding: 10px 20px 10px 10px; border: 1px solid #C4C4C4;
+}
+main .health .bottom .category .active {
+    width: 175px; background: #D72420;
+    height: 62px;  border-radius: 50px;
+    padding: 10px 20px 10px 10px; border: none;
+}
+main .health .bottom .category .active * {color: #fff;}
+main .health .bottom .category li button {
+    align-items: center;
+    display: flex; justify-content: space-between;
+    width: 100%; height: 100%;
+}
+main .health .bottom .category li button .thum {
+    background: #FAFAFA; width: 40px; height: 40px;
+    border-radius: 50%; display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .health .bottom .category li button .title {}
+main .health .bottom .category li button .arrow {}
+main .health .bottom .right {
+    display: flex; gap: 20px;
+    padding: 0 100px; height: 634px;
+    width: 100%;
+}
+main .health .bottom .right li {
+    flex: 1; position: relative; 
+    display: flex; flex-flow: column;
+    justify-content: flex-start;
+}
+main .health .bottom .right li button {
+    position: absolute;
+}
+main .health .bottom .right li button img {}
+main .health .bottom .right li a {}
+main .health .bottom .right li a .thum {
+    height: 540px; margin-bottom: 20px;
+}
+main .health .bottom .right li a .info {
+    display: flex; flex-flow: column;
+    justify-content: center; align-items: center;
+    gap: 10px;
+}
+main .health .bottom .right li a .info h3 {
+    font-weight: 500; font-size: 0.938em;
+}
+main .health .bottom .right li a .info .sub {
+    color: #757575;
+}
+main .health .bottom .right li a .info .price_sale {display: flex; gap: 5px;}
+main .health .bottom .right li a .info .price_sale del {
+    color: #A6A6A6; font-weight: 300;
+}
+main .health .bottom .right li a .info .price_sale strong {}
+main .health .bottom .right li a .info .price_sale .sale {color: #D72420;}
+main .health .bottom .right .first a .thum {
+    background: url(../image/health_1.png) no-repeat center center;
+    background-size: cover;
+}
+main .health .bottom .right .second a .thum {
+    background: url(../image/health_2.png) no-repeat center center;
+    background-size: cover;
+}
+main .health .bottom .right .third a .thum {
+    background: url(../image/health_3.png) no-repeat center center;
+    background-size: cover;
+}
+main .health .bottom .right .forth a .thum {
+    background: url(../image/health_4.png) no-repeat center center;
+    background-size: cover;
+}
