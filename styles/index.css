@@ -238,7 +238,7 @@ main .best ul li a .info h3 {
     font-weight: 500; font-size: 0.938em;
 }
 main .best ul li a .info p {
-    color: #757575;
+    color: #757575; font-size: 0.938em;
 }
 main .best ul li a .info .price_sale {display: flex; gap: 5px;}
 main .best ul li a .info .price_sale del {
@@ -799,3 +799,4 @@ footer .bottom {
         transform: scale(1);
     }
 }
+main section ul li a .info * {font-size: 0.938em;}
