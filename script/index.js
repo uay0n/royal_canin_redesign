@@ -14,3 +14,19 @@ window.addEventListener('scroll', function(){
         header.classList.remove('scrolled');
     }
 });
+
+const heartBtns = document.querySelectorAll('.heart');
+
+heartBtns.forEach(function(btn){
+    btn.addEventListener('click', function(){
+
+        this.classList.toggle('active');
+
+        this.classList.add('pop');
+
+        setTimeout(() => {
+            this.classList.remove('pop');
+        }, 300);
+
+    });
+});
